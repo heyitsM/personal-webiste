@@ -6,9 +6,9 @@ import '@/app/globals.css'
 export default function Projects() {
     return (
         <div className="grid-container max-h-screen grid grid-cols-5 gap-7">
-            <div className="w-full max-h-full pl-4 pb-4 hidden col-span-0 sm:flex sm:col-span-3 lg:col-span-4" style={{backgroundColor: ''}}>
+            <div className="w-11/12 max-h-full pl-4 pb-4 hidden col-span-0 sm:flex sm:col-span-3 lg:col-span-4" style={{backgroundColor: ''}}>
                 <div className="grid w-full grid-cols-1">
-                    <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 mr-4 pt-4">
+                    <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 mr-8 pt-4">
                         <Project title="Personal Website" image="Personal-Webiste.png" link="https://emily-heyitsm.vercel.app" github="https://github.com/heyitsM/personal-webiste" description="This is my current personal website." />
                         <Project title="Personal Website - Old" image="heyitsm.onrender.com.png" link="" github="https://github.com/heyitsM/heyitsM.github.io" description="A previous and unfinished personal website." />
                         <Project title="Personal Website" image="Personal-Webiste.png" link="" github="" description="description goes here" />

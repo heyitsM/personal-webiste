@@ -5,7 +5,7 @@ import '@/app/globals.css'
 
 export default function Contacts() {
     return (
-        <div className="grid-container max-h-screen grid grid-cols-5 gap-7">
+        <div className="grid-container max-w-screen max-h-screen grid grid-cols-5 gap-7">
             <div className="w-full max-h-full pl-4 pb-4 hidden col-span-0 sm:flex sm:col-span-3 lg:col-span-4" style={{backgroundColor: ''}}>
                 <div className="grid w-full grid-cols-1">
                     <h1 className="text-4xl place-self-end justify-self-start font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
@@ -26,7 +26,7 @@ export default function Contacts() {
                     <Slide title="RESUME" link="/"/>
                     <Slide title=">CONTACT" link="/contact"/>
                 </div>
-                <h1 className="mx-4 sm:hidden text-4xl place-self-end justify-self-start font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                <h1 className="mx-4 sm:hidden text-4xl place-self-end justify-self-end font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
                     <a href="https://www.linkedin.com/in/eberge11" className="block my-2 text-slate-700">LINKEDIN</a>
                     <a href="https://github.com/heyitsM" className="block my-2 text-slate-500">GITHUB</a>
                     <a href="mailto:eberge11@jhu.edu" className="block mt-2 mb-10 text-slate-300">EMAIL</a>

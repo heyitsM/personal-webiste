@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Slide from '@/components/slide'
 
+
 export default function Home() {
   return (
     <div className="grid-container max-h-screen grid grid-cols-5 gap-7">
@@ -15,13 +16,11 @@ export default function Home() {
         </h1>
         <div className="grid-container grid grid-cols-1 gap-3 justify-items-end mr-4 xs:mr-0 xxs:grid-cols-4 xxs:justify-items-center sm:justify-items-end sm:grid-cols-1 sm:gap-3">
           <Slide title="Home" link="/"/>
-          <Slide title="Projects" link="/"/>
+          <Slide title="Projects" link="/projects"/>
           <Slide title="Resume" link="/"/>
           <Slide title="Contact" link="/"/>
         </div>
-        
       </div>
-      
     </div>
   )
 }

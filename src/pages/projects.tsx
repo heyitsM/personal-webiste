@@ -26,7 +26,7 @@ export default function Projects() {
                 <div className="grid-container grid grid-cols-1 gap-3 justify-items-end mr-4 xs:mr-0 xxs:grid-cols-4 xxs:justify-items-center sm:justify-items-end sm:grid-cols-1 sm:gap-3">
                     <Slide title="HOME" link="/"/>
                     <Slide title=">PROJECTS" link="/projects"/>
-                    <Slide title="RESUME" link="/"/>
+                    <Slide title="RESUME" link="/resume"/>
                     <Slide title="CONTACT" link="/contact"/>
                 </div>
                 <div className="grid grid-cols-1 xs:grid-cols-2 sm:hidden gap-5 mx-4 pt-4">

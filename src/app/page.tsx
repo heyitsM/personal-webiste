@@ -15,10 +15,10 @@ export default function Home() {
           HELLO, MY NAME IS EMILY BERGER
         </h1>
         <div className="grid-container grid grid-cols-1 gap-3 justify-items-end mr-4 xs:mr-0 xxs:grid-cols-4 xxs:justify-items-center sm:justify-items-end sm:grid-cols-1 sm:gap-3">
-          <Slide title="Home" link="/"/>
-          <Slide title="Projects" link="/projects"/>
-          <Slide title="Resume" link="/"/>
-          <Slide title="Contact" link="/"/>
+          <Slide title=">HOME" link="/"/>
+          <Slide title="PROJECTS" link="/projects"/>
+          <Slide title="RESUME" link="/"/>
+          <Slide title="CONTACT" link="/contact"/>
         </div>
       </div>
     </div>

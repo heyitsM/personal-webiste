@@ -8,7 +8,7 @@ interface ProjectContent {
 
 export default function Project(props: ProjectContent) {
     return (
-        <div className="rounded-lg p-4 h-fit bg-slate-900/75" >
+        <div className="rounded-lg p-4 h-fit bg-indigo-400/20" >
             <img className="rounded-md mb-2" src={props.image} alt={props.title}></img>
             <a href={props.link} target="_blank">{props.title}</a>
             <br />

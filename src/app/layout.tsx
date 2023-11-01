@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import {AnimatePresence } from 'framer-motion'
 import { Inter } from 'next/font/google'
 import './globals.css'
 

@@ -1,20 +1,10 @@
-"use client"
 import Slide from '@/components/slide'
 import '@/app/globals.css'
-import { motion } from "framer-motion";
+import Layout from '@/components/layout';
 
-export default function Page() {
+export default function Home() {
     return (
-        <motion.div
-            initial={{ x: 0, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            exit={{ x: 0, opacity: 1 }}
-            transition={{
-            type: "spring",
-            stiffness: 260,
-            damping: 20,
-            }}
-        >
+        <Layout>
             <div className="grid-container max-h-screen grid grid-cols-5 gap-7">
                 <div className="w-full pl-4 mb-4 place-self-end hidden col-span-0 sm:flex sm:col-span-3 lg:col-span-4" style={{backgroundColor: ''}}>
                     <h1 className="text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
@@ -33,7 +23,7 @@ export default function Page() {
                     </div>
                 </div>
             </div>
-        </motion.div>
+        </Layout>
         
     );
 }

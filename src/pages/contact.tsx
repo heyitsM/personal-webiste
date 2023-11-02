@@ -12,10 +12,10 @@ export default function Contacts() {
                 <div className="w-full max-h-full pl-4 pb-4 hidden col-span-0 sm:flex sm:col-span-3 lg:col-span-4" style={{backgroundColor: ''}}>
                     <div className="grid w-full grid-cols-1">
                         <h1 className="text-4xl place-self-end justify-self-start font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-                            <a href="https://www.linkedin.com/in/eberge11" className="block my-2 text-indigo-900">LINKEDIN</a>
-                            <a href="https://github.com/heyitsM" className="block my-2  text-violet-700">GITHUB</a>
-                            <a href="mailto:eberge11@jhu.edu" className="block mt-2 mb-10 text-purple-700 ">EMAIL</a>
-                            HELLO, MY NAME IS EMILY BERGER
+                            <a href="https://www.linkedin.com/in/eberge11" className="font-mono block my-2 text-indigo-900"><span className="hover:font-sans">LINKEDIN</span></a>
+                            <a href="https://github.com/heyitsM" className="font-mono block my-2 text-violet-700"><span className="hover:font-sans">GITHUB</span></a>
+                            <a href="mailto:eberge11@jhu.edu" className="font-mono block mt-2 mb-10 text-purple-700 "><span className="hover:font-sans">EMAIL</span></a>
+                            <span className="font-sans">HELLO, MY NAME IS EMILY BERGER</span>
                         </h1>
                     </div>
                 </div>
@@ -32,9 +32,9 @@ export default function Contacts() {
                         </div>
                     </div>
                     <h1 className="mx-4 sm:hidden text-4xl place-self-end justify-self-start font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl">
-                        <a href="https://www.linkedin.com/in/eberge11" className="block my-2 text-purple-700">LINKEDIN</a>
-                        <a href="https://github.com/heyitsM" className="block my-2  text-violet-700">GITHUB</a>
-                        <a href="mailto:eberge11@jhu.edu" className="block mt-2 mb-10  text-indigo-900">EMAIL</a>
+                        <a href="https://www.linkedin.com/in/eberge11" className="font-mono block my-2 text-purple-700"><span className="hover:font-sans">LINKEDIN</span></a>
+                        <a href="https://github.com/heyitsM" className="font-mono block my-2  text-violet-700"><span className="hover:font-sans">GITHUB</span></a>
+                        <a href="mailto:eberge11@jhu.edu" className="font-mono block mt-2 mb-10  text-indigo-900"><span className="hover:font-sans">EMAIL</span></a>
                     </h1>
                 </div>
             </div>

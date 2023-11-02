@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 export default function Contacts() {
     return (
-        <Layout>
+        <Layout route='/contacts'>
             <div className="grid-container max-w-screen max-h-screen grid grid-cols-5 gap-7">
                 <div className="w-full max-h-full pl-4 pb-4 hidden col-span-0 sm:flex sm:col-span-3 lg:col-span-4" style={{backgroundColor: ''}}>
                     <div className="grid w-full grid-cols-1">

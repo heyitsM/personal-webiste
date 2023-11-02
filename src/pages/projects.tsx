@@ -5,7 +5,7 @@ import '@/app/globals.css'
 
 export default function Projects() {
     return (
-        <Layout>
+        <Layout route='/projects'>
             <div className="grid-container max-h-screen grid grid-cols-5 gap-7">
                 <div className="w-11/12 max-h-full pl-4 pb-4 hidden col-span-0 sm:flex sm:col-span-3 lg:col-span-4" style={{backgroundColor: ''}}>
                     <div className="grid w-full grid-cols-1">

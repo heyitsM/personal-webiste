@@ -5,7 +5,7 @@ import '@/app/globals.css'
 
 export default function Resume() {
   return (
-    <Layout>
+    <Layout route="/resume">
       <div className="grid-container max-h-screen grid grid-cols-5 gap-7">
         <div className="w-full pl-4 mb-4 place-self-end hidden col-span-0 sm:flex sm:col-span-3 lg:col-span-4" style={{backgroundColor: ''}}>
             <h1 className="text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">

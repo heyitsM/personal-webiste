@@ -15,20 +15,20 @@ export default function Projects() {
                             <Project title="Personal Website" image="Personal-Webiste.png" link="" github="" description="description goes here" />
                             <Project title="Personal Website" image="Personal-Webiste.png" link="" github="" description="description goes here" />
                         </div>
-                        <h1 className="text-4xl place-self-end justify-self-start font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                        <h1 className="text-4xl place-self-end justify-self-start font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-indigo-200">
                             HELLO, MY NAME IS EMILY BERGER
                         </h1>
                     </div>
                 </div>
                 <div className="w-full pt-4 h-screen max-h-screen col-span-5 sm:col-span-2 lg:col-span-1" style={{backgroundColor:''}}>
-                    <h1 className="text-4xl text-justify mb-4 sm:hidden font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                    <h1 className="text-4xl text-justify mb-4 sm:hidden font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-indigo-200">
                         HELLO, MY NAME IS EMILY BERGER
                     </h1>
                     <div className="grid-container grid grid-cols-1 gap-3 justify-items-end mr-4 xs:mr-0 xxs:grid-cols-4 xxs:justify-items-center sm:justify-items-end sm:grid-cols-1 sm:gap-3">
-                        <Slide title="HOME" link="/"/>
-                        <Slide title=">PROJECTS" link="/projects"/>
-                        <Slide title="RESUME" link="/resume"/>
-                        <Slide title="CONTACT" link="/contact"/>
+                        <Slide title="HOME" link="/" current="PROJECTS" />
+                        <Slide title="PROJECTS" link="/projects" current="PROJECTS"/>
+                        <Slide title="RESUME" link="/resume" current="PROJECTS" />
+                        <Slide title="CONTACT" link="/contact" current="PROJECTS" />
                     </div>
                     <div className="grid grid-cols-1 xs:grid-cols-2 sm:hidden gap-5 mx-4 pt-4">
                         <Project title="Personal Website" image="Personal-Webiste.png" link="https://emily-heyitsm.vercel.app" github="https://github.com/heyitsM/personal-webiste" description="This is my current personal website." />

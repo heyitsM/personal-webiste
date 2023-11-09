@@ -8,7 +8,7 @@ interface ProjectContent {
 
 export default function Project(props: ProjectContent) {
     return (
-        <div className="rounded-lg p-4 h-fit bg-gradient-to-b from-indigo-950 via-violet-950 to-purple-950 hover:from-purple-950 hover:via-violet-950 hover:to-indigo-950" >
+        <div className="rounded-lg p-4 h-fit backdrop-blur-sm bg-gradient-to-b from-indigo-950/20 via-violet-950/20 to-purple-950/20 hover:from-purple-950/50 hover:via-violet-950/50 hover:to-indigo-950/50" >
             <img className="rounded-md mb-2" src={props.image} alt={props.title}></img>
             <a href={props.link} target="_blank" className="font-bold text-lg text-cyan-600">{props.title}</a>
             <br />

@@ -11,7 +11,7 @@ export default function Projects() {
                     <div className="grid w-full grid-cols-1">
                         <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 mr-8 pt-4">
                             <Project title="Personal Website" image="Personal-Webiste.png" link="https://emily-heyitsm.vercel.app" github="https://github.com/heyitsM/personal-webiste" description="This is my current personal website." />
-                            <Project title="Personal Website - Old" image="heyitsm.onrender.com.png" link="" github="https://github.com/heyitsM/heyitsM.github.io" description="A previous and unfinished personal website." />
+                            <Project title="Personal Website - Old" image="heyitsm.onrender.com.png" link="https://heyitsm.onrender.com" github="https://github.com/heyitsM/heyitsM.github.io" description="A previous and unfinished personal website." />
                             <Project title="Personal Website" image="Personal-Webiste.png" link="" github="" description="description goes here" />
                             <Project title="Personal Website" image="Personal-Webiste.png" link="" github="" description="description goes here" />
                         </div>

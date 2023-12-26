@@ -10,8 +10,8 @@ export default function ResumeBody() {
             <br />
             <br />
             I have development experience, both through school, an internship (learn more about my experience with SEO Careers here)
-            and through side projects including this one. To learn more about specifics regarding my school/work experience, please don't 
-            hesitate to contact me!
+            and through side projects including this one. To learn more about specifics regarding my school/work experience, please
+            <a href="https://emily-heyitsm.vercel.app/contact" className="hover:text-violet-800 dark:hover:text-violet-600"><b> contact me</b></a>!
         </div>
     );
 }

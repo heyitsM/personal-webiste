@@ -27,7 +27,7 @@ export default function Contacts() {
                         <div className="grid-container grid grid-cols-1 gap-3 justify-items-end mx-4 sm:mx-0 xxs:grid-cols-4 xxs:justify-items-center sm:justify-items-end sm:grid-cols-1 sm:gap-3">
                             <Slide title="HOME" link="/" current="CONTACT"/>
                             <Slide title="PROJECTS" link="/projects" current="CONTACT"/>
-                            <Slide title="RESUME" link="/resume" current="CONTACT" />
+                            <Slide title="ABOUT" link="/about" current="CONTACT" />
                             <Slide title="CONTACT" link="/contact" current="CONTACT"/>
                         </div>
                     </div>

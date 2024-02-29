@@ -13,7 +13,6 @@ export default function Projects() {
                             <Project title="Personal Website" image="Personal-Webiste.png" link="https://emily-heyitsm.vercel.app" github="https://github.com/heyitsM/personal-webiste" description="This is my current personal website." />
                             <Project title="Personal Website - Old" image="heyitsm.onrender.com.png" link="https://heyitsm.onrender.com" github="https://github.com/heyitsM/heyitsM.github.io" description="A previous and unfinished personal website." />
                             <Project title="EAR Chrome Extension" image="ear-detection.png" link="https://github.com/Kennnnn774/EAR-Detection-Tool" github="https://github.com/Kennnnn774/EAR-Detection-Tool" description="A tool designed to detect execute-after-redirect vulnerabilities using dynamic analysis." />
-                            <Project title="Personal Website" image="Personal-Webiste.png" link="" github="" description="description goes here" />
                         </div>
                         <h1 className="text-4xl place-self-end justify-self-start font-extrabold leading-none tracking-tight text-indigo-950 md:text-5xl lg:text-6xl dark:text-indigo-200">
                             HELLO, MY NAME IS EMILY BERGER
@@ -27,7 +26,7 @@ export default function Projects() {
                     <div className="grid-container grid grid-cols-1 gap-3 justify-items-end mr-4 xs:mr-0 xxs:grid-cols-4 xxs:justify-items-center sm:justify-items-end sm:grid-cols-1 sm:gap-3">
                         <Slide title="HOME" link="/" current="PROJECTS" />
                         <Slide title="PROJECTS" link="/projects" current="PROJECTS"/>
-                        <Slide title="RESUME" link="/resume" current="PROJECTS" />
+                        <Slide title="ABOUT" link="/about" current="PROJECTS" />
                         <Slide title="CONTACT" link="/contact" current="PROJECTS" />
                     </div>
                     <div className="grid grid-cols-1 xs:grid-cols-2 sm:hidden gap-5 mx-4 pt-4">

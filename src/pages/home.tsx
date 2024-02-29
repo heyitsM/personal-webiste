@@ -18,7 +18,7 @@ export default function Home() {
                     <div className="grid-container grid grid-cols-1 gap-3 justify-items-end mr-4 xs:mr-0 xxs:grid-cols-4 xxs:justify-items-center sm:justify-items-end sm:grid-cols-1 sm:gap-3">
                         <Slide title="HOME" link="/" current="HOME"/>
                         <Slide title="PROJECTS" link="/projects" current="HOME"/>
-                        <Slide title="RESUME" link="/resume" current="HOME"/>
+                        <Slide title="ABOUT" link="/about" current="HOME"/>
                         <Slide title="CONTACT" link="/contact" current="HOME"/>
                     </div>
                 </div>

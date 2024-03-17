@@ -13,6 +13,7 @@ export default function Projects() {
                             <Project title="Personal Website" image="Personal-Webiste.png" link="https://emily-heyitsm.vercel.app" github="https://github.com/heyitsM/personal-webiste" description="This is my current personal website." />
                             <Project title="Personal Website - Old" image="heyitsm.onrender.com.png" link="https://heyitsm.onrender.com" github="https://github.com/heyitsM/heyitsM.github.io" description="A previous and unfinished personal website." />
                             <Project title="EAR Chrome Extension" image="ear-detection.png" link="https://github.com/Kennnnn774/EAR-Detection-Tool" github="https://github.com/Kennnnn774/EAR-Detection-Tool" description="A tool designed to detect execute-after-redirect vulnerabilities using dynamic analysis." />
+                            <Project title="Kinematics Simulator" image="" link="https://kinematics-simulator.onrender.com" github="https://github.com/heyitsM/kinematics-simulator" description="A fun callback to my AP Physics days. This was one of the first side projects that I worked on, and I decided to redo it when I had a bit of free time." />
                         </div>
                         <h1 className="text-4xl place-self-end justify-self-start font-extrabold leading-none tracking-tight text-indigo-950 md:text-5xl lg:text-6xl dark:text-indigo-200">
                             HELLO, MY NAME IS EMILY BERGER

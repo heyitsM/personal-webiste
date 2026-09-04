@@ -35,7 +35,6 @@ export default function Projects() {
                         <Project title="Personal Website" image="Personal-Webiste.png" link="https://emily-heyitsm.vercel.app" github="https://github.com/heyitsM/personal-webiste" description="This is my current personal website." />
                         <Project title="EAR Chrome Extension" image="ear-detection.png" link="https://github.com/Kennnnn774/EAR-Detection-Tool" github="https://github.com/Kennnnn774/EAR-Detection-Tool" description="A tool to detect execute-after-redirect vulnerabilities with dynamic analysis." />
                         <Project title="Personal Website - Old" image="heyitsm.onrender.com.png" link="https://heyitsm.onrender.com" github="https://github.com/heyitsM/heyitsM.github.io" description="A previous and unfinished personal website." />
-                        <Project title="Personal Website" image="Personal-Webiste.png" link="" github="" description="description goes here" />
                     </div>
 
                 </div>
